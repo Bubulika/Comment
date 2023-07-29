@@ -7,8 +7,8 @@ export default function Reply(props: any) {
   const { img, username, time, comment, score, id, data, setData } = props;
 
   //const [input, setInput] = useState(false);
-  const inputRef = useRef("");
-  const [isReply, setIsReply] = useState(false);
+  const inputRef = useRef<any>("");
+  const [isReply, setIsReply] = useState<boolean>(false);
   function findReplyIndex() {
     let replyIndex;
     //let commentId;
