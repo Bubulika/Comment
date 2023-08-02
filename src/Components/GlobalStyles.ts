@@ -9,7 +9,7 @@ const GlobalStyles=createGlobalStyle`
   
 }
  body{
-    background-color:${props=>props.theme.colors.Background}
+    background-color: #f2f2f2
  }
 `
 export default GlobalStyles
