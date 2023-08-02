@@ -25,7 +25,6 @@ export interface Theme{
       SoftRed:'#ED6368',
       LightGray:'#E9EBF0',
       PaleRed: '#FFB8BB',
-      Background:' #F2F2F2;'
-
+      Background:'#F2F2F2'
     }
   }

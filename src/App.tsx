@@ -11,7 +11,7 @@ import CommentInput from "./Components/CommentInput";
 import MyCommentComponent from "./Components/MyCommentComponent";
 
 function App() {
-  const [data, setData] = useState(Data);
+  const [data, setData] = useState<any>(Data);
   const [isVisible, setIsVisible] = useState(false);
   console.log(data.comments[1].replies);
   return (
@@ -24,7 +24,7 @@ function App() {
         />
       </Helmet>
       <BodyWrapper>
-        {data.comments.map((item) => (
+        {data.comments.map((item: any) => (
           <div>
             {item.user.username === "juliusomo" ? (
               <MyCommentComponent
@@ -52,7 +52,7 @@ function App() {
               />
             )}
 
-            {item.replies.map((el) =>
+            {item.replies.map((el: any) =>
               el.user.username === "juliusomo" ? (
                 <MyReply
                   id={el.id}
