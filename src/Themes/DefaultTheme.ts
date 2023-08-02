@@ -1,20 +1,20 @@
-export interface Theme{
-    colors:{
-      DarkBlue:string;
-      GrayishBlue:string;
-      ModerateBlue:string;
-      VeryLightGray:string;
-      LightGrayishBlue:string;
-      White:string;
-      SoftRed:string;
-      LightGray:string;
-      PaleRed:string;
-      Background:string;
-    }
+// export interface Theme{
+//     colors:{
+//       DarkBlue:string;
+//       GrayishBlue:string;
+//       ModerateBlue:string;
+//       VeryLightGray:string;
+//       LightGrayishBlue:string;
+//       White:string;
+//       SoftRed:string;
+//       LightGray:string;
+//       PaleRed:string;
+//       Background:string;
+//     }
 
 
-  }
-  export const defaultTheme:Theme={
+//   }
+  export const defaultTheme:any={
     colors:{
       DarkBlue:'#334253',
       GrayishBlue:'#67727E',
